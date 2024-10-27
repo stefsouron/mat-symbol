@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Material Icons</title>
     <script type="module" src="/components/material-symbol/material-symbol.js"></script>
+    <style>
+      .icon-strip {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
-    <mat-symbol>search</mat-symbol>
-    <mat-symbol>close</mat-symbol>
+    <div class="icon-strip">
+      <mat-symbol color="blue">abcdef</mat-symbol>
+      <mat-symbol size="2rem">Settings</mat-symbol>
+      <mat-symbol size="3rem" color="red">Account Circle</mat-symbol>
+      <mat-symbol color="green">Filter List</mat-symbol>
+      <mat-symbol size="20vw" color="orange">menu</mat-symbol>
+    </div>
   </body>
 </html>
